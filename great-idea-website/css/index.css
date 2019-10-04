@@ -64,3 +64,180 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: auto;
+	width: 100%;
+}
+/* ....................Header.................*/
+header {
+	display: inline-block;
+	margin: 2%;
+	padding: 2%;
+
+
+	
+}
+
+	header nav {
+		position: absolute;
+		left: 5%;
+		top: 7%;
+
+		}
+
+		nav a {
+			padding-right: 100px;
+			color: white;
+			  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+			  text-decoration: none;
+		
+		}
+
+
+
+	header img.logo {
+		position: absolute;
+		right: 5%;
+			
+		}
+
+/* ....................End Header.................*/
+
+/*....................group1....................*/
+
+#group1 {
+	display: inline;
+	margin: 5%;
+	padding: 5%;
+}
+
+	div#top {
+		position: absolute;
+		top: 30%;
+		left: 20%;
+		text-align: center;
+		
+		
+	}
+
+		h1 {
+			font-size: 500%;
+		}
+
+		#button {
+			border: 2px solid black;
+			padding: 2%;
+			width: 50%;
+			position: absolute;
+			left: 20%;
+			
+		}
+
+	#code {
+		position: absolute;
+		top: 20%;
+		right: 5%;
+
+		
+	}
+	#horizontal-line-top {
+		border: 2px solid black;
+		position: absolute;
+		top: 80%;
+		left: 5%;
+		width: 90%;
+	}
+
+/*....................end group1....................*/
+/*....................group2....................*/
+
+#group2 {
+	display: inline-block;
+	position: absolute;
+	top: 90%;
+	left: 5%;
+}
+
+	#features {
+		width: 40%;
+	}
+
+	#about {
+		width: 40%;
+		position: absolute;
+		right: 5%;
+		top: 0%;
+	}
+
+
+.middle-img {
+	display: inline-block;
+	position: absolute;
+	top: 140%;
+	left: 0%;
+	width: 95%;
+}
+/*....................end group2....................*/
+
+/*....................group3....................*/
+#group3 {
+	display: inline-block;
+	position: absolute;
+	top: 135%;
+	left: 5%;
+}
+
+
+	#services {
+		width: 30%;
+	}
+
+	#product{
+		width: 30%;
+		position: absolute;
+		left: 32.5%;
+		top: 0%;
+	}
+
+	#vision {
+		width: 30%;
+		position: absolute;
+		right: 5%;
+		top: 0%;
+	}
+
+/*....................end group3....................*/
+
+#horizontal-line-bottom {
+	border: 2px solid black;
+	position: absolute;
+	top: 150%;
+	left: 5%;
+	width: 90%;
+}
+
+footer {
+	display: inline-block;
+	position: absolute;
+	top: 160%;
+	left: 5%;
+	margin-bottom: 30%;
+}
+
+	span {
+		text-align: center;
+	}
+
+		p.bot {
+			padding: 10%;
+
+		}
+
+	#copyright {
+		position: absolute;
+		left: 350%;
+		width: 200%;
+		top: 160%;
+		
+		
+	}
